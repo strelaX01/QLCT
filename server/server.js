@@ -8,12 +8,11 @@ const moment = require('moment');
 
 const JWT_SECRET = 'your_jwt_secret';
 
-// Kết nối đến CSDL MySQL
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'qlct'
+    host: 'sql12.freesqldatabase.com',
+    user: 'sql12722566',
+    password: '2ssH22w8L6',
+    database: 'sql12722566'
 });
 
 db.connect((err) => {
