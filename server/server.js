@@ -9,10 +9,10 @@ const moment = require('moment');
 const JWT_SECRET = 'your_jwt_secret';
 
 const db = mysql.createConnection({
-    host: 'sql12.freesqldatabase.com',
-    user: 'sql12722566',
-    password: '2ssH22w8L6',
-    database: 'sql12722566'
+    host: 'localhost',
+    user: 'root,
+    password: '',
+    database: 'qlct'
 });
 
 db.connect((err) => {
